@@ -161,4 +161,5 @@ jobs:
       run: |
         echo "Cleaning up previous run"
         rm -rf "${{ github.workspace }}"
+        rm -rf /workdir
         
